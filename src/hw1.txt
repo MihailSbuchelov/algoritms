@@ -73,5 +73,5 @@ public static BigInteger fib(BigInteger n) {
     }
     return fib(n.subtract(BigInteger.ONE)).add(fib(n.subtract(BigInteger.TWO)));
 }
-По ощущениям, объяснить не могу
+По ощущениям
 O(pow(e,n))
